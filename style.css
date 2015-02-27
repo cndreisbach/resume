@@ -84,3 +84,9 @@ a:hover, a:active {
 hr {
     color: #A6A6A6;
 }
+
+@media print {
+    p, dd {
+        page-break-inside: avoid;
+    }
+}

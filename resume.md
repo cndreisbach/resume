@@ -3,9 +3,9 @@ Clinton Dreisbach
 
 ----
 
->  Specialties: Clojure, Python, SQL, teaching\
+>  Specialties: Clojure, Ruby, Python, SQL, teaching\
 >  <clinton@dreisbach.us> • <https://github.com/cndreisbach/>\
->  (919) 360-9150 • Durham, NC
+>  (919) 360-9150 • Durham, NC, USA
 
 ----
 
@@ -18,10 +18,15 @@ November 2012 - present
     Designed and created [Qu](http://github.com/cfpb/qu), a data platform used
     to serve public datasets. Qu is capable of streaming datasets of arbitrary
     length, ingesting and manipulating datasets based off definition files,
-    and batch processing map-reduce jobs on that data.
+    and batch processing map-reduce jobs on that data. Qu is powered by Clojure
+    and MongoDB.
 
     Co-chair of the Open Source Working Group. Helped coordinate a major
     effort to open source over a dozen projects.
+
+    Helped organize an internal testing mini-conference aimed at increasing 
+    testing on CFPB projects. Within a year, all projects were using continuous
+    integration and had comprehensive test suites.
 
 August 2011 - November 2012
 :   *Developer at [Relevance (now Cognitect)](http://cognitect.com/)*
@@ -34,10 +39,16 @@ August 2007 - March 2011
     Led Durham, NC & Washington, DC based development teams. Worked as lead 
     developer on Ruby on Rails projects for established businesses and startup 
     clients.
+    
+September 2005 - July 2007
+:   *Developer at Lulu.com*
+
+    Planned and developed features for 1,000,000+ LOC PHP application.
+    Responsible for refactoring of entire app to split the view layer
+    out from the main logic.
 
 Previously
-:   *Developer at Lulu.com* \
-    *Lead Developer at Demand Publishing* \
+:   *Lead Developer at Demand Publishing* \
     *Contractor at Boeing and RealNetworks* \
     *Signals Intelligence Analyst, U.S. Army*
 
@@ -50,10 +61,6 @@ Clojure
     of MongoDB, used to query, analyze, and stream data. Contributed to
     [Light Table](http://lighttable.com/).
 
-    Lead author of the curriculum for [ClojureBridge](http://clojurebridge.org/),
-    an initiative to increase diversity within the Clojure community by offering 
-    free, beginner-friendly workshops for women.
-
 Python
 :   Member of core team for [Hy](http://hylang.org/), a Lisp that compiles
     to the Python AST. Implemented tail-call optimization for Hy.
@@ -65,6 +72,38 @@ Ruby
     ActiveModel-compliant interface to the Datomic database.
 
 
+Selected Talks Given
+--------------------
+
+Secrets of Clojure Web Development, *CodeMash 2014, Sandusky, OH, USA*
+
+Functional Web Development with Clojure, *Lambda Jam 2013, Chicago, IL, USA*
+
+Computing with Clojure, *OSCON 2012, Portland, OR, USA*
+
+Migrating Legacy Apps to Rails 3, *RailsConf 2011, Baltimore, MD, USA*
+
+Advanced Internationalization with Rails, *Conferencia Rails 2009, Madrid, Spain*
+
+
+Volunteer Projects
+------------------
+
+ClojureBridge
+:   [ClojureBridge](http://clojurebridge.org/) is an initiative to increase 
+    diversity within the Clojure community by offering free, beginner-friendly 
+    workshops for women. I am the lead author of the core curriculum, and am
+    teaching the premier workshop in Durham, NC.
+
+Citizen Schools
+:   I have taught Scheme using the [Bootstrap program](http://bootstrapworld.org)
+    through the Citizen Schools after-school program for 6th-8th graders.
+
+Teen Tech Camp
+:   [Teen Tech Camp](http://exitevent.com/teen-tech-camp-hosts-future-developers-1389.asp)
+    was a day-long event that members of Refresh the Triangle and TriZPUG organized with the help of the Durham County Southwest Regional Library. We successfully applied for a grant from the Python Software Foundation to purchase Raspberry Pis for 20 students, aged 12-18. I was an organizer and lead teacher.
+
+
 Activities and Interests
 ------------------------
 
@@ -73,9 +112,9 @@ Games
     and love playing all kinds of board and tabletop games.
 
 Teaching
-:   I taught Scheme using the [Bootstrap program](http://bootstrapworld.org)
-    in an after-school program at a local middle school. I also volunteer as
-    a math tutor.
+:   As evidenced by my volunteer projects, I enjoy teaching programming skills 
+    to newcomers. I am dedicated to increasing access to programming knowledge
+    and skills among communities are underrepresented in technology.
 
 Music
 :   I play the ukulele in a folk ensemble.
