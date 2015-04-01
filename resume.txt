@@ -3,7 +3,7 @@ Clinton Dreisbach
 
 * * * * *
 
-  Specialties: Clojure, Ruby, Python, SQL, teaching  
+  Specialties: Clojure, Python, Ruby, SQL, teaching  
    clinton@dreisbach.us • https://github.com/cndreisbach/  
    (919) 360-9150 • Durham, NC, USA
 
@@ -12,7 +12,16 @@ Clinton Dreisbach
 Experience
 ----------
 
-November 2012 - present
+April 2014 - present
+    Instructor at The Iron Yard
+
+    Taught intensive 12-week Python and Ruby courses to students new to
+    development, with 100% of eligible graduating students finding jobs.
+
+    Developed the Python/data analysis and Ruby on Rails curricula from
+    scratch.
+
+November 2012 - April 2014
     Technology & Innovation Fellow at the CFPB
 
     Designed and created Qu, a data platform used to serve public
