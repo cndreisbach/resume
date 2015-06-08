@@ -1,5 +1,5 @@
-resume.log
-*.aux
+!resume.tex
+!resume.pdf
+resume.*
 *.log
-*.out
 .texpadtmp
