@@ -1,125 +1,107 @@
-\section{Clinton Dreisbach}\label{clinton-dreisbach}
+\documentclass[11pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
-\begin{center}\rule{3in}{0.4pt}\end{center}
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}
 
-\begin{quote}
-Specialties: Clojure, Ruby, Python, SQL, teaching\\
-\href{mailto:clinton@dreisbach.us}{clinton@dreisbach.us} •
-\url{https://github.com/cndreisbach/}\\ (919) 360-9150 • Durham, NC, USA
-\end{quote}
 
-\begin{center}\rule{3in}{0.4pt}\end{center}
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
-\subsection{Experience}\label{experience}
+% personal data
+\name{Clinton}{Dreisbach}
+\address{Durham, NC}
+\phone[mobile]{+1~(919)~360~9150}
+\email{clinton@dreisbach.us}
+\homepage{dreisbach.us}
+\social[linkedin]{cndreisbach}
+\social[twitter]{cndreisbach}
+\social[github]{cndreisbach}
 
-\begin{description}
-\item[November 2012 - present]
-\emph{Technology \& Innovation Fellow at the
-\href{http://consumerfinance.gov}{CFPB}}
 
-Designed and created \href{http://github.com/cfpb/qu}{Qu}, a data
-platform used to serve public datasets. Qu is capable of streaming
-datasets of arbitrary length, ingesting and manipulating datasets based
-off definition files, and batch processing map-reduce jobs on that data.
-Qu is powered by Clojure and MongoDB.
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
 
-Co-chair of the Open Source Working Group. Helped coordinate a major
-effort to open source over a dozen projects.
+\begin{document}
+	\makecvtitle
 
-Helped organize an internal testing mini-conference aimed at increasing
-testing on CFPB projects. Within a year, all projects were using
-continuous integration and had comprehensive test suites.
-\item[August 2011 - November 2012]
-\emph{Developer at \href{http://cognitect.com/}{Relevance (now
-Cognitect)}}
+	\section{Summary}
+	I am a senior developer with 15 years of experience, focusing on web development and data science.
+	\par\bigskip
+	I love using Python for its simplicity and practicality. The ability to do complex data manipulations with a few list comprehensions is amazing. The library support for going even further with tools like Pandas is incredible. For the same reason, I enjoy programming in Clojure. It has the expressiveness of Lisp combined with pragmatic choices like a rich set of literal data structures, immutability, and straightforward concurrency models.
+	\par\bigskip
+	My passion is teaching and mentoring other developers. When not working full-time as a teacher, I volunteer for community events like ClojureBridge, local Teen Tech Camps, and in public schools.
 
-Designed, created, and improved large software systems in Ruby and
-Clojure.
-\item[August 2007 - March 2011]
-\emph{Development Director at \href{http://viget.com/}{Viget Labs}}
 
-Led Durham, NC \& Washington, DC based development teams. Worked as lead
-developer on Ruby on Rails projects for established businesses and
-startup clients.
-\item[Previously]
-\emph{Developer at Lulu.com}\\\emph{Lead Developer at Demand
-Publishing}\\\emph{Contractor at Boeing and RealNetworks}\\\emph{Signals
-Intelligence Analyst, U.S. Army}
-\end{description}
+	\section{Skills}
+	\cvitem{Expert}{Python, Ruby, SQL}
+	\cvitem{Proficient}{Clojure, Perl, JavaScript, HTML, Django, Flask, API design}
+	\cvitem{Competent}{Machine learning, Pandas, NumPy, Scheme, CSS}
+	\cvitem{Beginner}{\LaTeX, interpreters}
+	\cvitem{Want to learn}{Common Lisp, compiler design}
 
-\subsection{Selected Open Source
-Contributions}\label{selected-open-source-contributions}
 
-\begin{description}
-\item[Clojure]
-Author of \href{http://github.com/cfpb/qu}{Qu}, a data platform built on
-top of MongoDB, used to query, analyze, and stream data. Contributed to
-\href{http://lighttable.com/}{Light Table}.
-\item[Python]
-Member of core team for \href{http://hylang.org/}{Hy}, a Lisp that
-compiles to the Python AST. Implemented tail-call optimization for Hy.
-\item[Ruby]
-Author of \href{https://github.com/relevance/edn-ruby}{edn-ruby}, an EDN
-parser and writer. Original author of
-\href{https://github.com/relevance/diametric}{Diametric}, an
-ActiveModel-compliant interface to the Datomic database.
-\end{description}
+	\section{Experience}
+	\cventry{Apr 2014 -- present}{Programming instructor}{The Iron Yard}{Durham, NC}{}{
+		I teach intensive 12-week courses in Python and data science to beginning programmers, equipping them with the knowledge and tools they need to succeed in their careers.
+		\bigskip
+		\begin{itemize}%
+			\item Created a Python and data science curriculum.
+			\item Developed a Ruby and Rails curriculum.
+			\item Placed students with companies such as Red Hat, Intuit, and Automated Insights.
+		\end{itemize}
+	}
+	\bigskip
 
-\subsection{Selected Talks Given}\label{selected-talks-given}
+	\cventry{Nov 2012 -- Apr 2014}{Technology \& Innovation Fellow}{Consumer Financial Protection Bureau}{\mbox{Washington, DC}}{}{
+		Built systems to help American consumers and to improve government.
+		\bigskip
+		\begin{itemize}
+			\item Designed and created \href{https://github.com/cfpb/qu}{Qu}, a data platform used to serve public datasets. Qu is capable of streaming datasets of arbitrary length, ingesting and manipulating datasets based off definition files, and batch processing map-reduce jobs on that data. Qu is powered by Clojure and MongoDB.
+			\item Co-chair of the Open Source Working Group. Helped coordinate a major effort to open source over a dozen projects.
+			\item Helped organize an internal testing mini-conference aimed at increasing testing on CFPB projects. Within a year, all projects were using continuous integration and had comprehensive test suites.
+		\end{itemize}
+	}
+	\bigskip
 
-Secrets of Clojure Web Development, \emph{CodeMash 2014, Sandusky, OH,
-USA}
+	\cventry{Aug 2011 -- Nov 2012}{Software Developer}{Relevance (now Cognitect)}{Durham, NC}{}{
+		Designed, created, and improved large software systems in Ruby and Clojure. Created \href{https://github.com/relevance/diametric}{Diametric}, a Ruby ActiveModel-compliant interface to the Datomic database.
+	}
+	\bigskip
 
-Functional Web Development with Clojure, \emph{Lambda Jam 2013, Chicago,
-IL, USA}
+	\cventry{Aug 2007 -- Mar 2011}{Development Director}{Viget Labs}{Durham, NC}{}{
+		Led Durham, NC and Washington, DC based development teams. Worked as lead developer on Ruby on Rails projects for established businesses and startup clients.
+	}
+	\bigskip
 
-Computing with Clojure, \emph{OSCON 2012, Portland, OR, USA}
+	\cventry{Sep 2005 -- Jul 2007}{Senior Developer}{Lulu.com}{Morrisville, NC}{}{
+		Led development team for community features at this startup, meeting the needs of hundreds of thousands of users.
+	}
+	\bigskip
 
-Migrating Legacy Apps to Rails 3, \emph{RailsConf 2011, Baltimore, MD,
-USA}
+	\cventry{July 2003 -- Aug 2005}{Assistant Vice-President}{ShowMaster Systems}{New Orleans, LA}{}{
+		Designed numerous web applications in PHP and Ruby on Rails, including a conference registration system. Managed information technology department of developers and information analysts and oversaw the administration of multi-million dollar trade shows.
+	}
+	\bigskip
 
-Advanced Internationalization with Rails, \emph{Conferencia Rails 2009,
-Madrid, Spain}
+	\cventry{Oct 1999 -- July 2003}{Contractor}{}{Washington, DC and Seattle, WA}{}{
+		Worked as a contractor, using Perl and PHP, for organizations such as Boeing, Real Networks, AT\&T Wireless, and various government agencies.
+	}
+	
+	\section{Volunteer Projects}
+	\cventry{2014}{ClojureBridge}{}{}{}{
+\href{http://clojurebridge.org/}{ClojureBridge} is an initiative to increase diversity within the Clojure community by offering free, beginner-friendly workshops for women. I was the lead author of the core curriculum, and taught the first workshop.}
 
-\subsection{Volunteer Projects}\label{volunteer-projects}
+	\cventry{2013}{Citizen Schools}{}{}{}{
+I taught Scheme using the Bootstrap curriculum through the Citizen Schools after-school program for 6th-8th graders.}
 
-\begin{description}
-\item[ClojureBridge]
-\href{http://clojurebridge.org/}{ClojureBridge} is an initiative to
-increase diversity within the Clojure community by offering free,
-beginner-friendly workshops for women. I am the lead author of the core
-curriculum, and am teaching the premier workshop in Durham, NC.
-\item[Citizen Schools]
-I have taught Scheme using the
-\href{http://bootstrapworld.org}{Bootstrap program} through the Citizen
-Schools after-school program for 6th-8th graders.
-\item[Teen Tech Camp]
-\href{http://exitevent.com/teen-tech-camp-hosts-future-developers-1389.asp}{Teen
-Tech Camp} was a day-long event that members of Refresh the Triangle and
-TriZPUG organized with the help of the Durham County Southwest Regional
-Library. We successfully applied for a grant from the Python Software
-Foundation to purchase Raspberry Pis for 20 students, aged 12-18. I was
-an organizer and lead teacher.
-\end{description}
+	\cventry{2013}{Teen Tech Camp}{}{}{}{
+Teen Tech Camp was a day-long event that members of Refresh the Triangle and the Triangle Python Users' Group organized with the help of the Durham County Library. We successfully applied for a grant from the Python Software Foundation to purchase Raspberry Pis for 20 students, aged 12-18. I was an organizer and lead teacher.
+	}
 
-\subsection{Education}\label{education}
-
-Studied computer science at University of Maryland University College
-and University of Alabama at Huntsville.
-
-\subsection{Activities and Interests}\label{activities-and-interests}
-
-\begin{description}
-\item[Games]
-I am an
-\href{http://crngames.com/the_shadow_of_yesterday/}{award-winning
-role-playing game designer} and love playing all kinds of board and
-tabletop games.
-\item[Teaching]
-As evidenced by my volunteer projects, I enjoy teaching programming
-skills to newcomers. I am dedicated to increasing access to programming
-knowledge and skills among communities are underrepresented in
-technology.
-\item[Music]
-I play the ukulele in a folk ensemble.
-\end{description}
+\end{document}

@@ -1,1 +1,5 @@
 resume.log
+*.aux
+*.log
+*.out
+.texpadtmp
