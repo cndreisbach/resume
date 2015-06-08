@@ -1,13 +1,5 @@
-all: index.html resume.txt resume.pdf
-
-index.html: resume.md style.css
-	pandoc --standalone -c style.css --from markdown --to html -o index.html resume.md
-
-resume.pdf: index.html
-	wkhtmltopdf index.html resume.pdf
-
-resume.txt: resume.md
-	pandoc --standalone --smart --from markdown --to plain -o resume.txt resume.md
+resume.pdf: resume.tex
+	pdflatex resume.tex
 
 clean:
-	rm -f *.html *.pdf *.txt
+	rm -f *.html *.pdf *.log *.dvi *.aux *.out
